@@ -1,0 +1,705 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		020647961EA9CE33003B9659 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 020647951EA9CE33003B9659 /* main.m */; };
+		020647991EA9CE33003B9659 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 020647981EA9CE33003B9659 /* AppDelegate.m */; };
+		0206479C1EA9CE33003B9659 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0206479B1EA9CE33003B9659 /* ViewController.m */; };
+		0206479F1EA9CE33003B9659 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0206479D1EA9CE33003B9659 /* Main.storyboard */; };
+		020647A11EA9CE33003B9659 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 020647A01EA9CE33003B9659 /* Assets.xcassets */; };
+		020647A41EA9CE33003B9659 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 020647A21EA9CE33003B9659 /* LaunchScreen.storyboard */; };
+		020647AF1EA9CE33003B9659 /* ZJPhotoBrowerTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 020647AE1EA9CE33003B9659 /* ZJPhotoBrowerTests.m */; };
+		020647BA1EA9CE33003B9659 /* ZJPhotoBrowerUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 020647B91EA9CE33003B9659 /* ZJPhotoBrowerUITests.m */; };
+		020647D31EA9CECC003B9659 /* 1.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 020647C81EA9CECC003B9659 /* 1.jpg */; };
+		020647D41EA9CECC003B9659 /* 2.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 020647C91EA9CECC003B9659 /* 2.jpg */; };
+		020647D51EA9CECC003B9659 /* 3.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 020647CA1EA9CECC003B9659 /* 3.jpg */; };
+		020647D61EA9CECC003B9659 /* 4.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 020647CB1EA9CECC003B9659 /* 4.jpg */; };
+		020647D71EA9CECC003B9659 /* 5.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 020647CC1EA9CECC003B9659 /* 5.jpg */; };
+		020647D81EA9CECC003B9659 /* 6.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 020647CD1EA9CECC003B9659 /* 6.jpg */; };
+		020647D91EA9CECC003B9659 /* 7.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 020647CE1EA9CECC003B9659 /* 7.jpg */; };
+		020647DA1EA9CECC003B9659 /* 8.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 020647CF1EA9CECC003B9659 /* 8.jpg */; };
+		020647DB1EA9CECC003B9659 /* 9.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 020647D01EA9CECC003B9659 /* 9.jpg */; };
+		020647DC1EA9CECC003B9659 /* preview_image_failure.png in Resources */ = {isa = PBXBuildFile; fileRef = 020647D11EA9CECC003B9659 /* preview_image_failure.png */; };
+		020647DD1EA9CECC003B9659 /* preview_image_failure@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 020647D21EA9CECC003B9659 /* preview_image_failure@2x.png */; };
+		020648111EA9D13E003B9659 /* Picture.plist in Resources */ = {isa = PBXBuildFile; fileRef = 020648101EA9D13E003B9659 /* Picture.plist */; };
+		020648151EA9D2C6003B9659 /* ZJPhotoBrower.m in Sources */ = {isa = PBXBuildFile; fileRef = 020648141EA9D2C6003B9659 /* ZJPhotoBrower.m */; };
+		020648181EA9D2F7003B9659 /* ZJPieProgressView.m in Sources */ = {isa = PBXBuildFile; fileRef = 020648171EA9D2F7003B9659 /* ZJPieProgressView.m */; };
+		0206481B1EA9D317003B9659 /* ZJPhotoImageView.m in Sources */ = {isa = PBXBuildFile; fileRef = 0206481A1EA9D317003B9659 /* ZJPhotoImageView.m */; };
+		0206481D1EA9F5AD003B9659 /* default.png in Resources */ = {isa = PBXBuildFile; fileRef = 0206481C1EA9F5AD003B9659 /* default.png */; };
+		EA86A77A1C20B38E8D3739A7 /* Pods_ZJPhotoBrower.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = ECA5AA940EA7D6DAB97612D8 /* Pods_ZJPhotoBrower.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		020647AB1EA9CE33003B9659 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 020647891EA9CE33003B9659 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 020647901EA9CE33003B9659;
+			remoteInfo = ZJPhotoBrower;
+		};
+		020647B61EA9CE33003B9659 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 020647891EA9CE33003B9659 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 020647901EA9CE33003B9659;
+			remoteInfo = ZJPhotoBrower;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		020647911EA9CE33003B9659 /* ZJPhotoBrower.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ZJPhotoBrower.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		020647951EA9CE33003B9659 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		020647971EA9CE33003B9659 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		020647981EA9CE33003B9659 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		0206479A1EA9CE33003B9659 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		0206479B1EA9CE33003B9659 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		0206479E1EA9CE33003B9659 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		020647A01EA9CE33003B9659 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		020647A31EA9CE33003B9659 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		020647A51EA9CE33003B9659 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		020647AA1EA9CE33003B9659 /* ZJPhotoBrowerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ZJPhotoBrowerTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		020647AE1EA9CE33003B9659 /* ZJPhotoBrowerTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ZJPhotoBrowerTests.m; sourceTree = "<group>"; };
+		020647B01EA9CE33003B9659 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		020647B51EA9CE33003B9659 /* ZJPhotoBrowerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ZJPhotoBrowerUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		020647B91EA9CE33003B9659 /* ZJPhotoBrowerUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ZJPhotoBrowerUITests.m; sourceTree = "<group>"; };
+		020647BB1EA9CE33003B9659 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		020647C81EA9CECC003B9659 /* 1.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 1.jpg; sourceTree = "<group>"; };
+		020647C91EA9CECC003B9659 /* 2.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 2.jpg; sourceTree = "<group>"; };
+		020647CA1EA9CECC003B9659 /* 3.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 3.jpg; sourceTree = "<group>"; };
+		020647CB1EA9CECC003B9659 /* 4.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 4.jpg; sourceTree = "<group>"; };
+		020647CC1EA9CECC003B9659 /* 5.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 5.jpg; sourceTree = "<group>"; };
+		020647CD1EA9CECC003B9659 /* 6.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 6.jpg; sourceTree = "<group>"; };
+		020647CE1EA9CECC003B9659 /* 7.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 7.jpg; sourceTree = "<group>"; };
+		020647CF1EA9CECC003B9659 /* 8.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 8.jpg; sourceTree = "<group>"; };
+		020647D01EA9CECC003B9659 /* 9.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 9.jpg; sourceTree = "<group>"; };
+		020647D11EA9CECC003B9659 /* preview_image_failure.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = preview_image_failure.png; sourceTree = "<group>"; };
+		020647D21EA9CECC003B9659 /* preview_image_failure@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "preview_image_failure@2x.png"; sourceTree = "<group>"; };
+		020648101EA9D13E003B9659 /* Picture.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Picture.plist; sourceTree = "<group>"; };
+		020648131EA9D2C6003B9659 /* ZJPhotoBrower.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZJPhotoBrower.h; sourceTree = "<group>"; };
+		020648141EA9D2C6003B9659 /* ZJPhotoBrower.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZJPhotoBrower.m; sourceTree = "<group>"; };
+		020648161EA9D2F7003B9659 /* ZJPieProgressView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZJPieProgressView.h; sourceTree = "<group>"; };
+		020648171EA9D2F7003B9659 /* ZJPieProgressView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZJPieProgressView.m; sourceTree = "<group>"; };
+		020648191EA9D317003B9659 /* ZJPhotoImageView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZJPhotoImageView.h; sourceTree = "<group>"; };
+		0206481A1EA9D317003B9659 /* ZJPhotoImageView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZJPhotoImageView.m; sourceTree = "<group>"; };
+		0206481C1EA9F5AD003B9659 /* default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = default.png; sourceTree = "<group>"; };
+		08D3C7C53046BE4B3D2EAFF5 /* Pods-ZJPhotoBrower.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ZJPhotoBrower.debug.xcconfig"; path = "Pods/Target Support Files/Pods-ZJPhotoBrower/Pods-ZJPhotoBrower.debug.xcconfig"; sourceTree = "<group>"; };
+		16AC883783456A52115857FA /* Pods-ZJPhotoBrower.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ZJPhotoBrower.release.xcconfig"; path = "Pods/Target Support Files/Pods-ZJPhotoBrower/Pods-ZJPhotoBrower.release.xcconfig"; sourceTree = "<group>"; };
+		ECA5AA940EA7D6DAB97612D8 /* Pods_ZJPhotoBrower.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ZJPhotoBrower.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		0206478E1EA9CE33003B9659 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EA86A77A1C20B38E8D3739A7 /* Pods_ZJPhotoBrower.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		020647A71EA9CE33003B9659 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		020647B21EA9CE33003B9659 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		020647881EA9CE33003B9659 = {
+			isa = PBXGroup;
+			children = (
+				020647931EA9CE33003B9659 /* ZJPhotoBrower */,
+				020647AD1EA9CE33003B9659 /* ZJPhotoBrowerTests */,
+				020647B81EA9CE33003B9659 /* ZJPhotoBrowerUITests */,
+				020647921EA9CE33003B9659 /* Products */,
+				B8CEBD7E6F58345D50FD7A73 /* Pods */,
+				10C6186C8414D9726557D2EF /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		020647921EA9CE33003B9659 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				020647911EA9CE33003B9659 /* ZJPhotoBrower.app */,
+				020647AA1EA9CE33003B9659 /* ZJPhotoBrowerTests.xctest */,
+				020647B51EA9CE33003B9659 /* ZJPhotoBrowerUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		020647931EA9CE33003B9659 /* ZJPhotoBrower */ = {
+			isa = PBXGroup;
+			children = (
+				020648121EA9D278003B9659 /* PhotoBrower */,
+				020647C71EA9CECC003B9659 /* imgs */,
+				020647971EA9CE33003B9659 /* AppDelegate.h */,
+				020647981EA9CE33003B9659 /* AppDelegate.m */,
+				0206479A1EA9CE33003B9659 /* ViewController.h */,
+				0206479B1EA9CE33003B9659 /* ViewController.m */,
+				0206479D1EA9CE33003B9659 /* Main.storyboard */,
+				020647A01EA9CE33003B9659 /* Assets.xcassets */,
+				020647A21EA9CE33003B9659 /* LaunchScreen.storyboard */,
+				020647A51EA9CE33003B9659 /* Info.plist */,
+				020647941EA9CE33003B9659 /* Supporting Files */,
+			);
+			path = ZJPhotoBrower;
+			sourceTree = "<group>";
+		};
+		020647941EA9CE33003B9659 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				020647951EA9CE33003B9659 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		020647AD1EA9CE33003B9659 /* ZJPhotoBrowerTests */ = {
+			isa = PBXGroup;
+			children = (
+				020647AE1EA9CE33003B9659 /* ZJPhotoBrowerTests.m */,
+				020647B01EA9CE33003B9659 /* Info.plist */,
+			);
+			path = ZJPhotoBrowerTests;
+			sourceTree = "<group>";
+		};
+		020647B81EA9CE33003B9659 /* ZJPhotoBrowerUITests */ = {
+			isa = PBXGroup;
+			children = (
+				020647B91EA9CE33003B9659 /* ZJPhotoBrowerUITests.m */,
+				020647BB1EA9CE33003B9659 /* Info.plist */,
+			);
+			path = ZJPhotoBrowerUITests;
+			sourceTree = "<group>";
+		};
+		020647C71EA9CECC003B9659 /* imgs */ = {
+			isa = PBXGroup;
+			children = (
+				020648101EA9D13E003B9659 /* Picture.plist */,
+				020647C81EA9CECC003B9659 /* 1.jpg */,
+				020647C91EA9CECC003B9659 /* 2.jpg */,
+				020647CA1EA9CECC003B9659 /* 3.jpg */,
+				020647CB1EA9CECC003B9659 /* 4.jpg */,
+				020647CC1EA9CECC003B9659 /* 5.jpg */,
+				020647CD1EA9CECC003B9659 /* 6.jpg */,
+				020647CE1EA9CECC003B9659 /* 7.jpg */,
+				020647CF1EA9CECC003B9659 /* 8.jpg */,
+				020647D01EA9CECC003B9659 /* 9.jpg */,
+				020647D11EA9CECC003B9659 /* preview_image_failure.png */,
+				020647D21EA9CECC003B9659 /* preview_image_failure@2x.png */,
+				0206481C1EA9F5AD003B9659 /* default.png */,
+			);
+			path = imgs;
+			sourceTree = "<group>";
+		};
+		020648121EA9D278003B9659 /* PhotoBrower */ = {
+			isa = PBXGroup;
+			children = (
+				020648131EA9D2C6003B9659 /* ZJPhotoBrower.h */,
+				020648141EA9D2C6003B9659 /* ZJPhotoBrower.m */,
+				020648161EA9D2F7003B9659 /* ZJPieProgressView.h */,
+				020648171EA9D2F7003B9659 /* ZJPieProgressView.m */,
+				020648191EA9D317003B9659 /* ZJPhotoImageView.h */,
+				0206481A1EA9D317003B9659 /* ZJPhotoImageView.m */,
+			);
+			name = PhotoBrower;
+			sourceTree = "<group>";
+		};
+		10C6186C8414D9726557D2EF /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				ECA5AA940EA7D6DAB97612D8 /* Pods_ZJPhotoBrower.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		B8CEBD7E6F58345D50FD7A73 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				08D3C7C53046BE4B3D2EAFF5 /* Pods-ZJPhotoBrower.debug.xcconfig */,
+				16AC883783456A52115857FA /* Pods-ZJPhotoBrower.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		020647901EA9CE33003B9659 /* ZJPhotoBrower */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 020647BE1EA9CE33003B9659 /* Build configuration list for PBXNativeTarget "ZJPhotoBrower" */;
+			buildPhases = (
+				B540F61A6ED8998F392719BE /* [CP] Check Pods Manifest.lock */,
+				0206478D1EA9CE33003B9659 /* Sources */,
+				0206478E1EA9CE33003B9659 /* Frameworks */,
+				0206478F1EA9CE33003B9659 /* Resources */,
+				70E635BDC6BFBD37998261B2 /* [CP] Embed Pods Frameworks */,
+				A8817A83BA366E0F93D9A2DA /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ZJPhotoBrower;
+			productName = ZJPhotoBrower;
+			productReference = 020647911EA9CE33003B9659 /* ZJPhotoBrower.app */;
+			productType = "com.apple.product-type.application";
+		};
+		020647A91EA9CE33003B9659 /* ZJPhotoBrowerTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 020647C11EA9CE33003B9659 /* Build configuration list for PBXNativeTarget "ZJPhotoBrowerTests" */;
+			buildPhases = (
+				020647A61EA9CE33003B9659 /* Sources */,
+				020647A71EA9CE33003B9659 /* Frameworks */,
+				020647A81EA9CE33003B9659 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				020647AC1EA9CE33003B9659 /* PBXTargetDependency */,
+			);
+			name = ZJPhotoBrowerTests;
+			productName = ZJPhotoBrowerTests;
+			productReference = 020647AA1EA9CE33003B9659 /* ZJPhotoBrowerTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		020647B41EA9CE33003B9659 /* ZJPhotoBrowerUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 020647C41EA9CE33003B9659 /* Build configuration list for PBXNativeTarget "ZJPhotoBrowerUITests" */;
+			buildPhases = (
+				020647B11EA9CE33003B9659 /* Sources */,
+				020647B21EA9CE33003B9659 /* Frameworks */,
+				020647B31EA9CE33003B9659 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				020647B71EA9CE33003B9659 /* PBXTargetDependency */,
+			);
+			name = ZJPhotoBrowerUITests;
+			productName = ZJPhotoBrowerUITests;
+			productReference = 020647B51EA9CE33003B9659 /* ZJPhotoBrowerUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		020647891EA9CE33003B9659 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0830;
+				ORGANIZATIONNAME = JuZiShu;
+				TargetAttributes = {
+					020647901EA9CE33003B9659 = {
+						CreatedOnToolsVersion = 8.3.1;
+						DevelopmentTeam = JR4HRCKAPD;
+						ProvisioningStyle = Automatic;
+					};
+					020647A91EA9CE33003B9659 = {
+						CreatedOnToolsVersion = 8.3.1;
+						DevelopmentTeam = JR4HRCKAPD;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 020647901EA9CE33003B9659;
+					};
+					020647B41EA9CE33003B9659 = {
+						CreatedOnToolsVersion = 8.3.1;
+						DevelopmentTeam = JR4HRCKAPD;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 020647901EA9CE33003B9659;
+					};
+				};
+			};
+			buildConfigurationList = 0206478C1EA9CE33003B9659 /* Build configuration list for PBXProject "ZJPhotoBrower" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 020647881EA9CE33003B9659;
+			productRefGroup = 020647921EA9CE33003B9659 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				020647901EA9CE33003B9659 /* ZJPhotoBrower */,
+				020647A91EA9CE33003B9659 /* ZJPhotoBrowerTests */,
+				020647B41EA9CE33003B9659 /* ZJPhotoBrowerUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		0206478F1EA9CE33003B9659 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				020647DA1EA9CECC003B9659 /* 8.jpg in Resources */,
+				020647D81EA9CECC003B9659 /* 6.jpg in Resources */,
+				020647A41EA9CE33003B9659 /* LaunchScreen.storyboard in Resources */,
+				020647DC1EA9CECC003B9659 /* preview_image_failure.png in Resources */,
+				020647D71EA9CECC003B9659 /* 5.jpg in Resources */,
+				020647D61EA9CECC003B9659 /* 4.jpg in Resources */,
+				020648111EA9D13E003B9659 /* Picture.plist in Resources */,
+				020647D31EA9CECC003B9659 /* 1.jpg in Resources */,
+				020647D41EA9CECC003B9659 /* 2.jpg in Resources */,
+				020647D51EA9CECC003B9659 /* 3.jpg in Resources */,
+				020647D91EA9CECC003B9659 /* 7.jpg in Resources */,
+				020647DB1EA9CECC003B9659 /* 9.jpg in Resources */,
+				020647A11EA9CE33003B9659 /* Assets.xcassets in Resources */,
+				0206481D1EA9F5AD003B9659 /* default.png in Resources */,
+				020647DD1EA9CECC003B9659 /* preview_image_failure@2x.png in Resources */,
+				0206479F1EA9CE33003B9659 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		020647A81EA9CE33003B9659 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		020647B31EA9CE33003B9659 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		70E635BDC6BFBD37998261B2 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-ZJPhotoBrower/Pods-ZJPhotoBrower-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		A8817A83BA366E0F93D9A2DA /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-ZJPhotoBrower/Pods-ZJPhotoBrower-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		B540F61A6ED8998F392719BE /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		0206478D1EA9CE33003B9659 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0206479C1EA9CE33003B9659 /* ViewController.m in Sources */,
+				0206481B1EA9D317003B9659 /* ZJPhotoImageView.m in Sources */,
+				020648151EA9D2C6003B9659 /* ZJPhotoBrower.m in Sources */,
+				020647991EA9CE33003B9659 /* AppDelegate.m in Sources */,
+				020648181EA9D2F7003B9659 /* ZJPieProgressView.m in Sources */,
+				020647961EA9CE33003B9659 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		020647A61EA9CE33003B9659 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				020647AF1EA9CE33003B9659 /* ZJPhotoBrowerTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		020647B11EA9CE33003B9659 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				020647BA1EA9CE33003B9659 /* ZJPhotoBrowerUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		020647AC1EA9CE33003B9659 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 020647901EA9CE33003B9659 /* ZJPhotoBrower */;
+			targetProxy = 020647AB1EA9CE33003B9659 /* PBXContainerItemProxy */;
+		};
+		020647B71EA9CE33003B9659 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 020647901EA9CE33003B9659 /* ZJPhotoBrower */;
+			targetProxy = 020647B61EA9CE33003B9659 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		0206479D1EA9CE33003B9659 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				0206479E1EA9CE33003B9659 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		020647A21EA9CE33003B9659 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				020647A31EA9CE33003B9659 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		020647BC1EA9CE33003B9659 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		020647BD1EA9CE33003B9659 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		020647BF1EA9CE33003B9659 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 08D3C7C53046BE4B3D2EAFF5 /* Pods-ZJPhotoBrower.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = JR4HRCKAPD;
+				INFOPLIST_FILE = ZJPhotoBrower/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.zj.ZJPhotoBrower;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		020647C01EA9CE33003B9659 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 16AC883783456A52115857FA /* Pods-ZJPhotoBrower.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = JR4HRCKAPD;
+				INFOPLIST_FILE = ZJPhotoBrower/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.zj.ZJPhotoBrower;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		020647C21EA9CE33003B9659 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = JR4HRCKAPD;
+				INFOPLIST_FILE = ZJPhotoBrowerTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.zj.ZJPhotoBrowerTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ZJPhotoBrower.app/ZJPhotoBrower";
+			};
+			name = Debug;
+		};
+		020647C31EA9CE33003B9659 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = JR4HRCKAPD;
+				INFOPLIST_FILE = ZJPhotoBrowerTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.zj.ZJPhotoBrowerTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ZJPhotoBrower.app/ZJPhotoBrower";
+			};
+			name = Release;
+		};
+		020647C51EA9CE33003B9659 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEVELOPMENT_TEAM = JR4HRCKAPD;
+				INFOPLIST_FILE = ZJPhotoBrowerUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.zj.ZJPhotoBrowerUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = ZJPhotoBrower;
+			};
+			name = Debug;
+		};
+		020647C61EA9CE33003B9659 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEVELOPMENT_TEAM = JR4HRCKAPD;
+				INFOPLIST_FILE = ZJPhotoBrowerUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.zj.ZJPhotoBrowerUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = ZJPhotoBrower;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		0206478C1EA9CE33003B9659 /* Build configuration list for PBXProject "ZJPhotoBrower" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				020647BC1EA9CE33003B9659 /* Debug */,
+				020647BD1EA9CE33003B9659 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		020647BE1EA9CE33003B9659 /* Build configuration list for PBXNativeTarget "ZJPhotoBrower" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				020647BF1EA9CE33003B9659 /* Debug */,
+				020647C01EA9CE33003B9659 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		020647C11EA9CE33003B9659 /* Build configuration list for PBXNativeTarget "ZJPhotoBrowerTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				020647C21EA9CE33003B9659 /* Debug */,
+				020647C31EA9CE33003B9659 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		020647C41EA9CE33003B9659 /* Build configuration list for PBXNativeTarget "ZJPhotoBrowerUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				020647C51EA9CE33003B9659 /* Debug */,
+				020647C61EA9CE33003B9659 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 020647891EA9CE33003B9659 /* Project object */;
+}
